@@ -7,4 +7,7 @@ describe('sum test', () => {
   it('one more get sum', () => {
     expect(add(2, 10)).toBe(12);
   });
+  it('wrong sum', () => {
+    expect(add(2, 10)).not.toBe(10);
+  });
 });
